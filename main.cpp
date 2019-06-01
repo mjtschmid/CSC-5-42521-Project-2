@@ -1,11 +1,3 @@
-/*
- * File:   main.cpp
- * Author: Dr. Mark E. Lehr
- * Created on January 2, 2019, 12:36 PM
- * Purpose:  Creation of Template to be used for all
- *           future projects
- */
-
 //System Libraries
 #include <iostream>  //Input/Output Library
 #include <iomanip>   //Output formatting
@@ -73,7 +65,7 @@ int main(int argc, char** argv) {
             switch(rndScrg){
                 case 1:
                     if (ones == false) {
-                        for (int i = 0; i <= 4; ++i) {
+                        for (int i = 0; i <= 4; i++) {
                             if (dice[i] == 1) {
                                 score += 1;
                             }
@@ -86,7 +78,7 @@ int main(int argc, char** argv) {
                     break;
                  case 2:
                     if (twos == false) {
-                        for (int i = 0; i <= 4; ++i) {
+                        for (int i = 0; i <= 4; i++) {
                             if (dice[i] == 2) {
                                 score += 2;
                             }
@@ -99,7 +91,7 @@ int main(int argc, char** argv) {
                     break;
                  case 3:
                     if (threes == false) {
-                        for (int i = 0; i <= 4; ++i) {
+                        for (int i = 0; i <= 4; i++) {
                             if (dice[i] == 3) {
                                 score += 3;
                             }
@@ -112,7 +104,7 @@ int main(int argc, char** argv) {
                     break;
                 case 4:
                     if (fours == false) {
-                        for (int i = 0; i <= 4; ++i) {
+                        for (int i = 0; i <= 4; i++) {
                             if (dice[i] == 4) {
                                 score += 4;
                             }
@@ -125,7 +117,7 @@ int main(int argc, char** argv) {
                     break;
                  case 5:
                     if (fives == false) {
-                        for (int i = 0; i <= 4; ++i) {
+                        for (int i = 0; i <= 4; i++) {
                             if (dice[i] == 5) {
                                 score += 5;
                             }
@@ -138,7 +130,7 @@ int main(int argc, char** argv) {
                     break;
                  case 6:
                     if (sixes == false) {
-                        for (int i = 0; i <= 4; ++i) {
+                        for (int i = 0; i <= 4; i++) {
                             if (dice[i] == 6) {
                                 score += 6;
                             }
